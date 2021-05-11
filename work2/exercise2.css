@@ -1,0 +1,114 @@
+    html {
+      scroll-behavior: smooth;
+    }
+
+    .Talexosolution {
+      font-weight: 900;
+      font-size: 3.5em;
+    }
+
+    .Talexosolution .letter {
+      display: inline-block;
+      line-height: 1em;
+    }
+
+    p {
+      font-size: larger;
+      padding-top: 20px;
+    }
+
+    .footer p {
+      background-color: #212529;
+      height: 120px;
+      width: 100%;
+      text-align: center;
+      color: white;
+      font-size: xx-small;
+      margin: 0 px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    #Talexosolution {
+      padding-top: 300px;
+      padding-bottom: 70px;
+      background-image: url('darkimage.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: 100% 100%;
+      color: white;
+      font-family: Lucida Calligraphy;
+      height: 700px;
+      text-align: center;
+      display: inline-block;
+      background-size: cover;
+    }
+
+    #Homeheader h1 {
+      text-align: left;
+    }
+
+    h2,h1 {
+      text-align: center;
+    }
+
+    .fa {
+      padding: 6px;
+      font-size: 15px;
+      width: 28px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+    }
+
+    .fa:hover {
+      opacity: 0.7;
+    }
+
+    .fa-facebook {
+      background: #3B5998;
+      color: white;
+    }
+
+    .fa-twitter {
+      background: #55ACEE;
+      color: white;
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+    .fa-instagram {
+      background: #125688;
+      color: white;
+    }
+
+    .carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  }
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='black' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.fakeimg {
+  background-image:url(lightblue1.jpg);
+     background-size: cover;
+}
+
+.split .col-sm-3:hover {
+  transform: scale(1.15);
+}
+
+.split ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.split li:before {
+  content: '✓  ';
+}
