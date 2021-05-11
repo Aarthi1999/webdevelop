@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <head>
+            <title>Guessing game</title>
+        <style>
+            * { 
+                box-sizing: border-box;
+		margin:0;
+		    }
+
+                .header{
+		 font-family: Lucida Calligraphy;
+		 background-color: #666;
+		 padding: 8px;
+		 color: white;
+		 float: left;
+		 width: 100%;
+		}
+
+                .header div{
+		  float:right;
+		  margin: 10px 40px 0 0;
+		  font-size:large;
+		 }
+
+                .header h1{
+		 float:left;
+		 text-align:center; 
+		 font-size: 40px;
+		 }
+
+                .header div a{
+                 margin-right:20px;
+                 color: #dfdfdf;
+                }
+
+                .container{
+                 max-width: 40%;
+                 margin: auto;
+                 font-size: larger;
+            	}
+
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1><b>Guessing game</b></h1>
+                <div>
+                    <a href="homepage.html">Home</a> 
+                    <a href="contact.html">Contactus</a> 
+                </div>
+        </div>
+        <div class="container">
+            <h1>Start your game</h1>
+            <p>We have selected a random number between 1 and 100. You need to guess the number. We'll tell whether you have to guess high or low.</p>
+        
+                <label>Enter a guess</label>
+                <input type="text" id="numb">
+                <button type="button" onclick=myfunction()>Submit</button>
+                <p id="demo"></p>
+                <script>
+                    var x = Math.floor(Math.random() * 100);
+                    function myfunction()
+                    {
+
+                        var text;
+                        var numb=document.getElementById("numb").value; 
+                        if(numb==x)
+                            {text="Congratulations! You found the number";}
+
+                        else if(numb<x)
+                            {text="Guess High";}
+
+                        else 
+                            {text="Guess Low";}
+
+                        document.getElementById("demo").innerHTML = text;
+                    }
+                    
+                </script>
+
+            
+        </div>
+    </body>
+</html>
+
